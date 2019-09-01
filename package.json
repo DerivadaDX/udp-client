@@ -1,0 +1,21 @@
+{
+	"name": "udp-client",
+	"version": "1.0.0",
+	"description": "Simple UDP client.",
+	"main": "dist/client.js",
+	"files": [
+		"dist",
+		"src",
+		".gitignore",
+		"tsconfig.json"
+	],
+	"scripts": {
+		"build": "tsc",
+		"run": "node dist/client.js"
+	},
+	"author": "DerivadaDX <derivadadx@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^12.7.3"
+	}
+}
